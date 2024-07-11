@@ -32,6 +32,8 @@ body {
 }
 .accordion .content-container .questions::after{
     content:"+";
+    position:absolute;
+    right: -5px;
 
 
 }
