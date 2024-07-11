@@ -3,37 +3,39 @@
 body {
   background: url(2.jpg) no-repeat center center/ cover;
   height: 100vh;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.accordion{
-    width:65%;
-    background-color: rgb(208, 208, 202);
-    padding:30px;
-    border-radius:30px;
+.accordion {
+  width: 65%;
+  background-color: rgb(208, 208, 202);
+  padding: 30px;
+  border-radius: 30px;
 }
 
-
-.accordion .accordion-title{
-    margin-bottom:30px;
-    text-align:center;
+.accordion .accordion-title {
+  margin-bottom: 30px;
+  text-align: center;
 }
 
-.accordion .content-container .questions{
-    padding:18px 0px; 
-    font-size: 22px;
-    cursor:pointer;
-    border-bottom:1px solid black;
-    position:relative ;
-
-
+.accordion .content-container .questions {
+  padding: 18px 0px;
+  font-size: 22px;
+  cursor: pointer;
+  border-bottom: 1px solid black;
+  position: relative;
 }
-.accordion .content-container .questions::after{
-    content:"+";
-    position:absolute;
-    right: -5px;
+.accordion .content-container .questions::after {
+  content: "+";
+  position: absolute;
+  right: -5px;
+}
 
-
+.accordion .content-container .answer {
+  padding-top: 15px;
+  font-size: 22px;
+  line-height: 1.5;
+  width: 100%;
 }
