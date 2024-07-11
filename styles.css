@@ -23,5 +23,8 @@ body {
 
 .accordion .content-container .questions{
     padding:18px 0px; 
+    font-size: 22px;
+    cursor:pointer;
+    border-bottom:1px solid black;
 
 }
