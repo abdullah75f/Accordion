@@ -26,5 +26,12 @@ body {
     font-size: 22px;
     cursor:pointer;
     border-bottom:1px solid black;
+    position:relative ;
+
+
+}
+.accordion .content-container .questions::after{
+    content:"+";
+
 
 }
