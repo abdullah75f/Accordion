@@ -14,3 +14,9 @@ body {
     padding:30px;
     border-radius:30px;
 }
+
+
+.accordion .accordion-title{
+    margin-bottom:30px;
+    text-align:center;
+}
