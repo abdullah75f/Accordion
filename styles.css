@@ -48,4 +48,10 @@ body {
 .accordion .content-container.active .answer {
   height: 150px;
 }
-.accordion .content-container.active;
+.accordion .content-container.active  .questions::after{
+  content:"-";
+  font-size:30px;
+  transition:.5s;
+
+
+}
