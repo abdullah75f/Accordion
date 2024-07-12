@@ -1,3 +1,7 @@
 //Variables
  
-const acordion = document.getElementsByClassName("content-container")
+const accordion = document.getElementsByClassName("content-container");
+
+for( i = 0; i < accordion.length; i++){
+    
+}
