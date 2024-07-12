@@ -42,3 +42,10 @@ body {
   overflow:hidden;
   transition: .5s;
 }
+
+/* Javascriprt Styling Link*/
+
+.accordion .content-container.active .answer{
+  height:150px;
+
+}
